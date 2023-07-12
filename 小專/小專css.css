@@ -1,0 +1,601 @@
+html {
+    background-color: aqua;
+}
+
+body {
+    background-image: url(./pic/Image\ \(1\).png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    /* background-size:contain; */
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+
+    height: 100px;
+    /* position: fixed;
+    left: 20%;
+    z-index: 10; */
+}
+
+
+#navLogo {
+    width: 100px;
+    position: relative;
+    bottom: 5px;
+}
+
+#navword1 {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 微軟正黑體;
+    position: relative;
+    bottom: 5px;
+}
+
+
+.navwords {
+    position: relative;
+    left: 7%;
+    padding: 15px;
+    color: rgb(38, 28, 90);
+    font-size: 24px;
+}
+
+/* #mycarousel {
+    display: block;
+    max-width: 100%;
+} */
+
+/* 響應式下拉選單S */
+
+.dropbtn {
+    background-color: #61cdff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+
+.dropdown {
+    position: absolute;
+    display: none;
+    left: 90%;
+    top: 3%;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/* 響應式下拉選單E */
+
+
+
+a {
+    font-size: 24px;
+    text-decoration: none;
+}
+
+
+#news {
+    /* background-color: rgba(206, 206, 206, 0.253); */
+    margin: 10px;
+    padding: 30px;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    background-color: rgba(255, 255, 255, 0.664);
+
+}
+
+
+
+#gate {
+    position: relative;
+    left: 10%;
+    max-width: 100%;
+    height: auto;
+}
+
+.newsLinks {
+    position: absolute;
+    left: 52%;
+    top: 10%;
+    font-size: large;
+    display: grid;
+    gap: 15px;
+    /* padding: 50px 100px; */
+    padding: 50px;
+
+
+
+}
+
+#more {
+    position: relative;
+    top: 90%;
+    right: 10%;
+}
+
+table {
+
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+
+    border-collapse: separate;
+}
+
+table td {
+    background-color: rgba(172, 255, 255, 0.418);
+    font-size: 24px;
+    padding: 20px;
+    border: 5px solid rgb(255, 255, 255);
+
+
+}
+
+#tableRWD {
+    display: none;
+    font-size: larger;
+}
+
+
+
+#about {
+    /* background-color: rgba(255, 255, 255, 0.616); */
+
+    padding: 60px;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    margin: 10px;
+    text-align: center;
+
+}
+
+#aboutContent {
+    font-size: 24px;
+    padding: 20px;
+
+    margin: 30px;
+
+}
+
+#picandtext>figure {
+
+    margin: 20px;
+
+
+
+}
+
+#pic1 {
+    position: relative;
+    left: -30px;
+
+}
+
+#pic3 {
+    position: relative;
+    left: 50px;
+}
+
+.tr1 {
+    width: 300px;
+    height: 300px;
+    /* border: #000000 solid 50px; */
+}
+
+#maci>img {
+    /* width: ; */
+    background-image: url(/pic/shockwave.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-size: 100% ; */
+}
+
+div>figure {
+    margin: -28px;
+}
+
+
+#teams {
+    /* background-color: rgba(255, 255, 255, 0.562); */
+    position: relative;
+    left: 11%;
+    padding: 10px;
+    margin: 20px;
+    width: 80%;
+
+}
+
+#teamtitle,
+#address,
+#connect {
+    font-size: 36px;
+    font-weight: bold;
+    position: relative;
+    left: 10%;
+    text-align: center;
+    width: 80%;
+    padding: 5px;
+
+
+}
+
+/* 卡片開始 */
+
+.PTs .card {
+    display: inline-block;
+}
+
+.PTs {
+
+    position: relative;
+    left: 40px;
+}
+
+
+.mainbox {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 10%;
+    width: 80%;
+}
+
+.scdbox {
+    display: flex;
+    justify-content: center;
+    /* background-color: chartreuse; */
+    height: 450px;
+    /* border: 5px solid black; */
+    position: relative;
+    left: 0%;
+    width: 100%;
+}
+
+
+.card {
+    width: 20rem;
+    height: 25rem;
+    margin: 15px;
+    position: relative;
+    perspective: 150rem;
+    border-radius: 20px;
+}
+
+.font,
+.back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+
+    color: #000000;
+    padding: 20rem 4rem 1rem 4rem;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    backface-visibility: hidden;
+
+
+}
+
+.PTname {
+    background-color: rgba(0, 209, 199, 0.616);
+    font-size: 30px;
+    content: 50px;
+    position: relative;
+    left: -10px;
+    font-weight: bold;
+    overflow: visible;
+}
+
+
+.font {
+    
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.back {
+    background: blue;
+    background-size: cover;
+    transform: rotateY(-180deg);
+    border-radius: 20px;
+}
+
+.card:hover .font {
+    transform: rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: rotateY(0);
+}
+
+/* 卡片結束 */
+
+#address>h2 {
+    width: 80%;
+    position: relative;
+    left: 10%;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 36px;
+}
+
+
+#addcont {
+    font-size: large;
+    padding: 10px;
+}
+
+
+
+#formarea {
+    border: 2px solid rgba(65, 65, 65, 0.082);
+    width: 50%;
+    position: relative;
+    left: 26%;
+    font-size: 22px;
+    background-color: rgba(239, 251, 255, 0.664);
+}
+
+fieldset>label {
+    margin: 8px;
+}
+
+#textarea {
+    width: 450px;
+    height: 150px
+}
+
+#arrow {
+
+    position: fixed;
+    right: -10vh;
+    bottom: 20px;
+}
+
+@media screen and (max-width:875px) {
+    .PTs>.card {
+        display: flex;
+        margin: 30px;
+    }
+
+    #teams {
+        height: 1500px;
+    }
+
+    #arrow {
+        position: fixed;
+        right: -10vh;
+        bottom: 20px;
+        width: 20%;
+    }
+
+}
+
+@media screen and (max-width:1030px) {
+
+
+    .PTs>.card {
+        display: flex;
+        margin: 30px;
+    }
+
+    #teams {
+        height: 1500px;
+    }
+}
+
+
+
+
+@media screen and (min-width:1125px) {
+    .scdbox {
+        display: flex;
+        justify-content: center;
+
+        position: relative;
+        left: -20%;
+        width: 130%;
+    }
+
+
+}
+
+
+@media screen and (max-width:1245px) {
+    .card {
+        width: 16rem;
+        height: 20rem;
+
+    }
+
+    .navwords {
+        display: none;
+    }
+
+    .navbar {
+        width: 80%;
+    }
+
+    .dropdown {
+        position: absolute;
+        display: inline-block;
+        left: 80%;
+        top: 3%;
+        z-index: 10;
+    }
+
+    .PTname {
+        background-color: rgba(0, 209, 199, 0.616);
+        font-size: 22px;
+        position: relative;
+        left: -10px;
+        width: 120%;
+        font-weight: bold;
+        overflow: visible;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    nav a {
+        position: relative;
+        left: -100%;
+        font-size: 18px;
+    }
+    .PTs {
+
+        position: relative;
+        left: 0px;
+    }
+
+}
+
+@media screen and (max-width:1365px) {
+    .scdbox {
+        display: flex;
+        justify-content: center;
+
+        position: relative;
+        left: -8%;
+        width: 110%;
+
+    }
+}
+
+@media screen and (max-width:1500px) {
+    nav a {
+        position: relative;
+        left: -100%;
+
+    }
+
+}
+
+@media screen and (max-width: 1600px) {
+
+    #gate {
+        position: relative;
+        left: 5px;
+        width: 70%;
+        height: auto;
+    }
+
+    .newsLinks {
+        position: relative;
+        left: 5%;
+
+    }
+
+    #textarea {
+        width: 250px;
+        height: 150px
+    }
+
+    .PTs .card {
+        position: relative;
+        left: 20px;
+
+    }
+
+    iframe {
+        width: 400px;
+        height: 400px;
+    }
+
+
+    table {
+        display: none;
+
+    }
+
+    #tableRWD {
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 1600px) {
+
+    #gate {
+        position: relative;
+        left: 5px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #news>img {
+
+        width: 50%;
+    }
+
+    .newsLinks>li,
+    .newsLinks a {
+        font-size: 28px;
+    }
+
+
+
+    #textarea {
+        width: 250px;
+        height: 150px
+    }
+
+    .PTs .card {
+        position: relative;
+        left: 20px;
+
+    }
+
+
+
+    iframe {
+        width: 400px;
+        height: 400px;
+    }
+
+
+    #tableRWD {
+        display: none;
+    }
+}
